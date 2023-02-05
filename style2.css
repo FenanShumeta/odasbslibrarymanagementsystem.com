@@ -1,0 +1,114 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+body
+{
+    background-image:url( aa.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+   
+    font-family: sans-serif; 
+    height: 65vh;
+    width: 200px;
+    margin: 0;
+    padding: 0;
+    
+}
+.menu-bar
+{
+background:rgb(230, 143, 201);
+text-align: center;
+
+height: 85px;
+width:250vh;
+
+}
+
+.menu-bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: antiquewhite;
+
+}
+.menu-bar ul li
+{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+    font-family:cursive;
+}
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color: #fff;
+}
+.active,.menu-bar ul li:hover
+{
+background: #9e3e89a2;
+border-radius: 1px;
+height: 65px;
+}
+.sub-menu-1 
+{
+    display: none;
+
+}
+.menu-bar ul li:hover .sub-menu-1 
+{
+    display: block;
+    position: absolute;
+    background: rgb(230, 143, 201);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.hello{
+    position:fixed;
+    
+    left:0px;
+    right:4px;
+    height: 85px;
+width:30vh;
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+    width:150px;
+    padding:10px;
+    border-bottom:1px dotted #fff;
+    background: transparent;
+    border-radius:0;
+    text-align:left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child
+{
+    border-bottom:none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a: hover
+{
+ color:(195, 0, 255, 0.438);
+} 
+.fa-angle-right
+{
+    float:right
+}
+.home
+{
+    width: 30px;
+    height: 3vh;
+    padding-left: 20px;
+}
+  
+    
+    
+  
+    
